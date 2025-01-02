@@ -13,5 +13,6 @@ public class Stacks {
         soulsborne.pop();
         System.out.println("After removing top game: "+soulsborne);
         System.out.println("Is thr Stack empty?:"+soulsborne.empty());
+        System.out.println("Does the stack contain Elden Ring?: "+soulsborne.contains("Elden Ring"));
     }
 }
