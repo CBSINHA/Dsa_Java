@@ -8,7 +8,7 @@ public class Stacks {
         soulsborne.push("Bloodborne");
         soulsborne.push("Sekiro");
         soulsborne.push("Elden Ring");
-        System.out.println("Games in the Stack:"+soulsborne);
+        System.out.println("Games in the Stack:"+soulsborne+"\nsize of the stack: "+soulsborne.size());
         System.out.println("Game at the top:"+soulsborne.peek());
         soulsborne.pop();
         System.out.println("After removing top game: "+soulsborne);
