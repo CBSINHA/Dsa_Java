@@ -22,5 +22,6 @@ public class Queues {
         System.out.println("Enter the element to search:");
         search=scanner.nextLine();
         System.out.println("Is "+search+" present in queue?: "+queue.contains(search));
+        scanner.close();
     }
 }
